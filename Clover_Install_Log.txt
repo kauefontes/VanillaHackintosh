@@ -1,0 +1,48 @@
+
+Clover EFI installer log - Wed Jan  2 14:35:42 -02 2019
+Installer version: v2.4k r4586 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:           Windows Recovery                         523.2 MB   disk0s1
+   2:                        EFI NO NAME                 104.9 MB   disk0s2
+   3:         Microsoft Reserved                         16.8 MB    disk0s3
+   4:       Microsoft Basic Data                         159.5 GB   disk0s4
+   5:       Microsoft Basic Data DADOS                   412.1 GB   disk0s5
+   6:       Microsoft Basic Data                         428.0 GB   disk0s6
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         119.8 GB   disk1s2
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +119.8 GB   disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume Mackintosh              56.8 GB    disk2s1
+   2:                APFS Volume Preboot                 44.7 MB    disk2s2
+   3:                APFS Volume Recovery                516.8 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *15.5 GB    disk3
+   1:                  Apple_HFS Sem Título              15.5 GB    disk3s1
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Sem Título
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Sem Título
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
